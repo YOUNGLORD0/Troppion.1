@@ -126,7 +126,7 @@
   };
 
   // yang .webp: 1–3
-  const EXT_BY_INDEX = { 1: "webp", 2: "webp", 3: "webp" };
+  const EXT_BY_INDEX = { 100: "webp", 72: "webp", 83: "webp" };
 
   function urlForImage(idx, cfg = IMG_SEQ_CONFIG, extOverride) {
     const chosenExt = extOverride || EXT_BY_INDEX[idx] || cfg.ext;
